@@ -1,0 +1,280 @@
+.flex-parent-element {
+  display: flex;
+  width: 100%;
+}
+
+/* x */
+
+.flex-child-element {
+  flex: 1;
+  border: 2px solid rgb(6, 6, 6);
+  background-color: rgb(206, 204, 209);
+  margin: 10px;
+  align-items: center;
+}
+
+/* x */
+
+.flex-parent-element-2 {
+  display: flex;
+  width: 100%;
+  margin-top: 55px;
+}
+
+/* x */
+
+
+.visualizer {
+  flex: 1;
+  border: 2px solid rgb(6, 6, 6);
+  background-color: #230C32;
+  margin: 10px;
+  align-items: center;
+}
+
+/* x */
+
+.flex-child-element-2 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0px;
+  font-size: 10px;
+}
+
+/* x */
+
+
+.flex-parent-element-3 {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  /* x */
+}
+
+.flex-child-element-3 {
+  margin-left: 30px;
+  /* x */
+}
+
+
+
+.getstarted {
+  margin-left: 1000px;
+  position: fixed;
+  top: 100px;
+  text-align: center;
+  font-size: 30px;
+  width: 250px;
+  height: 100px;
+  text-justify: auto;
+  /* x */
+
+}
+
+.child1 {
+  align-self: flex-end;
+  width: 30%;
+  position: relative;
+  left: 20px;
+  top: 5px;
+  border: 1px solid rgb(6, 6, 6);
+
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  /* x */
+}
+
+.bounce:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.child2 {
+  align-self: flex-end;
+  width: 30%;
+  position: relative;
+  left: 360px;
+  top: -110px;
+  border: 1px solid rgb(6, 6, 6);
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  /* x */
+}
+
+.bounce:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.child3 {
+  align-self: flex-end;
+  width: 30%;
+  position: relative;
+  left: 700px;
+  top: -220px;
+  border: 1px solid rgb(6, 6, 6);
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  /* x */
+}
+
+.bounce:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+.flex5 {
+  margin-left: 210px;
+  width: 45%;
+  height: 140px
+    /* x */
+}
+
+.flex6 {
+  margin-top: 1px;
+  margin-right: 80px;
+  height: 80px
+    /* x */
+}
+
+.upload {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  margin-left: 245px;
+  /* x */
+}
+
+.compare {
+  margin-top: 50px;
+  margin-left: 220px;
+  /* x */
+}
+
+.file {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  margin-left: 250px;
+  cursor: pointer;
+  /* x */
+}
+
+.search {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 260px;
+  width: 200px;
+  height: 20px;
+  /* x */
+}
+
+.player {
+  margin-top: 185px;
+  margin-bottom: 10px;
+  margin-left: 190px;
+  width: 300px;
+  /* x */
+}
+
+.spotifyplayer {
+  margin-top: 20px;
+  margin-bottom: 7px;
+  margin-left: 170px;
+  width: 400px;
+  /* x */
+}
+
+h3 {
+  width: 5px;
+  height: 5px;
+  margin-left: 175px;
+  font-size: 12px;
+  background-color: transparent;
+  color: rgb(120, 120, 120);
+  border: none;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.infobutton {
+  width: 15px;
+  height: 15px;
+  margin-left: 170px;
+  font-size: 12px;
+  background-color: transparent;
+  color: rgb(120, 120, 120);
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* x */
+
+
+.span {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 20px;
+  background-color: #f7f7f7;
+  border: 2px solid #000000;
+}
+
+/* x */
+
+
+
+h2 {
+  color: rgb(120, 120, 120);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 13px;
+}
